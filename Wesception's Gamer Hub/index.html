@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer's Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gamer's Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#follow">Follow Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Thought I was starting a gaming channel...</h2>
+        <p>...turns out it’s a pea farm!</p>
+    </section>
+
+    <section id="games">
+        <h2>Popular Games</h2>
+        <div class="game-list">
+            <div class="game" data-game="Game 1">
+                <h3>Game 1</h3>
+                <p>Description of Game 1.</p>
+            </div>
+            <div class="game" data-game="Game 2">
+                <h3>Game 2</h3>
+                <p>Description of Game 2.</p>
+            </div>
+            <!-- Add more games as needed -->
+        </div>
+    </section>
+
+    <section id="reviews">
+        <h2>Latest Reviews</h2>
+        <div class="review-list">
+            <div class="review">
+                <h3>Review 1</h3>
+                <p>Details of Review 1.</p>
+            </div>
+            <div class="review">
+                <h3>Review 2</h3>
+                <p>Details of Review 2.</p>
+            </div>
+            <!-- Add more reviews as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="follow">
+        <h2>Follow Us</h2>
+        <ul class="social-links">
+            <li><a href="https://discord.gg/dFn5rMFsYW" target="_blank">Discord</a></li>
+            <li><a href="https://www.youtube.com/channel/UCZFwMiewBnt8YpRQVBjUXow" target="_blank">YouTube</a></li>
+            <li><a href="https://x.com/wesception" target="_blank">Twitter</a></li>
+            <li><a href="https://www.tiktok.com/@wesception" target="_blank">TikTok</a></li>
+            <li><a href="https://www.twitch.tv/wesception" target="_blank">Twitch</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gamer's Hub. All rights reserved.</p>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modalTitle"></h3>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
